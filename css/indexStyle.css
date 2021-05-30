@@ -1,198 +1,199 @@
-                /* General style */
-                
-                * {
-                    font-family: 'nunito sans', helvetica, arial, sans-serif;
-                }
-                
-                .main-color {
-                    color: #39a2da;
-                }
-                
-                .main-bg {
-                    background-color: #39a2da;
-                }
-                
-                .pointer {
-                    cursor: pointer;
-                }
-                
-                html {
-                    scroll-behavior: smooth;
-                }
-                /*Header section*/
-                
-                header .shipping-btns button {
-                    FONT-SIZE: 12.0001px;
-                    font-weight: 900;
-                    LETTER-SPACING: 2px;
-                    border: .2px solid #aaa !important;
-                    padding: 2px 10px;
-                    transition: .5s;
-                }
-                
-                header .shipping-btns button:hover {
-                    color: white;
-                }
-                
-                header .shipping-btns i {
-                    font-size: 25px;
-                    cursor: pointer;
-                }
-                
-                header .pre-nav p {
-                    FONT-SIZE: 14.5px;
-                    LINE-HEIGHT: 36.25px;
-                    color: #fff;
-                }
-                
-                header .pre-nav p>a {
-                    color: #333;
-                    transition: .5s;
-                }
-                
-                header .pre-nav p>a:hover {
-                    color: #aaa;
-                    text-decoration: none;
-                }
-                
-                header .pre-nav li {
-                    list-style-type: none;
-                }
-                
-                header .pre-nav li>a {
-                    color: #fff;
-                }
-                
-                header .pre-nav li>a:hover {
-                    text-decoration: none;
-                }
-                
-                header .fixed-prenav-height {
-                    height: 35px;
-                }
-                
-                header .prenav-up-icon {
-                    cursor: pointer;
-                    border-radius: 0 0 20px 20px;
-                }
-                
-                header .prenav-logo i {
-                    color: #333;
-                    FONT-SIZE: 20px;
-                    LINE-HEIGHT: 27.9125px;
-                    transition: .5s;
-                }
-                
-                header .prenav-logo i:hover {
-                    color: #aaa;
-                }
-                
-                nav {
-                    FONT-SIZE: 14.355px;
-                    LINE-HEIGHT: 22.968px;
-                }
-                
-                nav li {
-                    padding-right: 5px;
-                }
-                
-                .dropdown:hover .dropdown-menu {
-                    display: block;
-                    margin-top: 0;
-                }
-                /*mega menu */
-                
-                .navbar .megamenu {
-                    padding: 1rem;
-                }
-                /* ============ desktop view ============ */
-                
-                @media all and (min-width: 992px) {
-                    .navbar .has-megamenu {
-                        position: static!important;
-                    }
-                    .navbar .megamenu {
-                        left: 0;
-                        right: 0;
-                        width: 100%;
-                        margin-top: 0;
-                    }
-                }
-                /* ============ desktop view .end// ============ */
-                /* ============ mobile view ============ */
-                
-                @media(max-width: 991px) {
-                    .navbar.fixed-top .navbar-collapse,
-                    .navbar.sticky-top .navbar-collapse {
-                        overflow-y: auto;
-                        max-height: 90vh;
-                        margin-top: 10px;
-                    }
-                }
-                
-                .position-fixed {
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    background-color: white;
-                }
-                /* Footer section */
-                
-                footer {
-                    color: #333333;
-                }
-                
-                .footer-info {
-                    background-color: rgb(246, 246, 246);
-                }
-                
-                footer i,
-                footer a {
-                    FONT-SIZE: 14.5px;
-                    LINE-HEIGHT: 14.5px;
-                    color: #333;
-                    cursor: pointer;
-                }
-                /*
+                                                        /* General style */
+                                                        
+                                                        * {
+                                                            font-family: 'nunito sans', helvetica, arial, sans-serif;
+                                                        }
+                                                        
+                                                        .main-color {
+                                                            color: #39a2da;
+                                                        }
+                                                        
+                                                        .main-bg {
+                                                            background-color: #39a2da;
+                                                        }
+                                                        
+                                                        .pointer {
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        html {
+                                                            scroll-behavior: smooth;
+                                                        }
+                                                        /*Header section*/
+                                                        
+                                                        header .shipping-btns button {
+                                                            FONT-SIZE: 12.0001px;
+                                                            font-weight: 900;
+                                                            LETTER-SPACING: 2px;
+                                                            border: .2px solid #aaa !important;
+                                                            padding: 2px 10px;
+                                                            transition: .5s;
+                                                        }
+                                                        
+                                                        header .shipping-btns button:hover {
+                                                            color: white;
+                                                        }
+                                                        
+                                                        header .shipping-btns i {
+                                                            font-size: 25px;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        header .pre-nav p {
+                                                            FONT-SIZE: 14.5px;
+                                                            LINE-HEIGHT: 36.25px;
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        header .pre-nav p>a {
+                                                            color: #333;
+                                                            transition: .5s;
+                                                        }
+                                                        
+                                                        header .pre-nav p>a:hover {
+                                                            color: #aaa;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        header .pre-nav li {
+                                                            list-style-type: none;
+                                                        }
+                                                        
+                                                        header .pre-nav li>a {
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        header .pre-nav li>a:hover {
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        header .fixed-prenav-height {
+                                                            height: 35px;
+                                                        }
+                                                        
+                                                        header .prenav-up-icon {
+                                                            cursor: pointer;
+                                                            border-radius: 0 0 20px 20px;
+                                                        }
+                                                        
+                                                        header .prenav-logo i {
+                                                            color: #333;
+                                                            FONT-SIZE: 20px;
+                                                            LINE-HEIGHT: 27.9125px;
+                                                            transition: .5s;
+                                                        }
+                                                        
+                                                        header .prenav-logo i:hover {
+                                                            color: #aaa;
+                                                        }
+                                                        
+                                                        nav {
+                                                            FONT-SIZE: 14.355px;
+                                                            LINE-HEIGHT: 22.968px;
+                                                        }
+                                                        
+                                                        nav li {
+                                                            padding-right: 5px;
+                                                        }
+                                                        
+                                                        .dropdown:hover .dropdown-menu {
+                                                            display: block;
+                                                            margin-top: 0;
+                                                        }
+                                                        /*mega menu */
+                                                        
+                                                        .navbar .megamenu {
+                                                            padding: 1rem;
+                                                        }
+                                                        /* ============ desktop view ============ */
+                                                        
+                                                        @media all and (min-width: 992px) {
+                                                            .navbar .has-megamenu {
+                                                                position: static!important;
+                                                            }
+                                                            .navbar .megamenu {
+                                                                left: 0;
+                                                                right: 0;
+                                                                width: 100%;
+                                                                margin-top: 0;
+                                                            }
+                                                        }
+                                                        /* ============ desktop view .end// ============ */
+                                                        /* ============ mobile view ============ */
+                                                        
+                                                        @media(max-width: 991px) {
+                                                            .navbar.fixed-top .navbar-collapse,
+                                                            .navbar.sticky-top .navbar-collapse {
+                                                                overflow-y: auto;
+                                                                max-height: 90vh;
+                                                                margin-top: 10px;
+                                                            }
+                                                        }
+                                                        
+                                                        .position-fixed {
+                                                            top: 0;
+                                                            left: 0;
+                                                            right: 0;
+                                                            background-color: white;
+                                                        }
+                                                        /* Footer section */
+                                                        
+                                                        footer {
+                                                            color: #333333;
+                                                        }
+                                                        
+                                                        .footer-info {
+                                                            background-color: rgb(246, 246, 246);
+                                                        }
+                                                        
+                                                        footer i,
+                                                        footer a {
+                                                            FONT-SIZE: 14.5px;
+                                                            LINE-HEIGHT: 14.5px;
+                                                            color: #333;
+                                                            cursor: pointer;
+                                                        }
+                                                        /*
                     if i hover on icone it'll appear a sentance
                     footer i :hover {}
 
                 */
-                
-                footer p {
-                    FONT-SIZE: 14.5px;
-                    LINE-HEIGHT: 14.5px;
-                    color: #333;
-                }
-                
-                .footer-info h3,
-                .footer-info h5 {
-                    font-weight: 900;
-                    FONT-SIZE: 20px;
-                    LINE-HEIGHT: 37px;
-                }
-                
-                footer li {
-                    list-style-type: none;
-                }
-                
-                footer li a {
-                    text-decoration: none;
-                    color: #333333;
-                    transition: .7s;
-                }
-                
-                footer a:hover {
-                    color: #aaa;
-                    text-decoration: none;
-                }
-                
-                .fixed-b-icon {
-                    position: fixed;
-                    right: 0;
-                    bottom: 0;
-                }
-                
-                .fixed-b-icon div {
-                    border-radius: 50%;
-                }
+                                                        
+                                                        footer p {
+                                                            FONT-SIZE: 14.5px;
+                                                            LINE-HEIGHT: 14.5px;
+                                                            color: #333;
+                                                        }
+                                                        
+                                                        .footer-info h3,
+                                                        .footer-info h5 {
+                                                            font-weight: 900;
+                                                            FONT-SIZE: 20px;
+                                                            LINE-HEIGHT: 37px;
+                                                        }
+                                                        
+                                                        footer li {
+                                                            list-style-type: none;
+                                                        }
+                                                        
+                                                        footer li a {
+                                                            text-decoration: none;
+                                                            color: #333333;
+                                                            transition: .7s;
+                                                        }
+                                                        
+                                                        footer a:hover {
+                                                            color: #aaa;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .fixed-b-icon {
+                                                            position: fixed;
+                                                            right: 0;
+                                                            bottom: 0;
+                                                        }
+                                                        
+                                                        .fixed-b-icon div {
+                                                            border-radius: 50%;
+                                                        }
+                                                        /**/
