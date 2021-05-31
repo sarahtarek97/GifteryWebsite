@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/indexStyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flickity-docs.css">
     <script src="https://kit.fontawesome.com/dc3d39a9b7.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,29 +23,35 @@
             </div>
 
             <div class="container-fluid main-bg pre-nav ">
-                <div class="container ">
+                <div class="container">
                     <div class="row justify-content-between align-items-center fixed-prenav-height ">
-                        <div class="col-md-4 ">
+                        <div class="col-md-6">
                             <div class=" ">
                                 <p>Call <a href=" ">+201221103868</a> (Sun-Thur From 9:30 To 5:30)</p>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div>
+                                <a href="">dd</a>
+                                <a href="">dd</a>
+                                <a href="">dd</a>
+                            </div>
 
-                        <div class="col-md-5 ">
-                            <div class=" ">
-                                <ul class=" d-flex justify-content-between align-items-center ">
-                                    <li>
-                                        <a href=" ">Manage Gift Lists</a>
-                                    </li>
-                                    <li>
-                                        <a href=" ">Order Tracking</a>
-                                    </li>
-                                    <li>
-                                        <a href=" "> <i class="far fa-user-circle mr-1 "></i>Login / Register</a>
-                                    </li>
-                                </ul>
+                        </div>
+
+                        <!--
+                        <div class="col-md-7 bg-dark">
+                            <div class="">
+
+                                <a href=" ">Manage Gift Lists</a>
+                                <a href=" ">Order Tracking</a>
+                                <a href=" "> <i class="far fa-user-circle mr-1 "></i>Login Register</a>
+
+
+
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
@@ -68,7 +75,7 @@
 
 
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container">
+                    <div class="px-5 m-auto">
                         <div class=" collapse navbar-collapse " id="navbarNavDropdown ">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item active ">
@@ -204,7 +211,7 @@ Shop By Recipient
 
     <!--******* Carousel *******-->
 
-    <div id="carouselExampleCaptions" class="carousel slide h-50" data-ride="carousel">
+    <section id="carouselExampleCaptions" class="carousel slide h-50" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -238,29 +245,216 @@ Shop By Recipient
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </section>
 
+
+
+    <!--******* shop posters *******-->
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-md-8">
+                    <div class="big-img">
+                        <img src="images/734.jpeg" class="w-100 img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="big-img">
+                        <img src="images/IMG_0603-copy.jpg" class="w-100 " alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-md-4">
+                    <div class="scaled-img">
+                        <img src="images/Website-Banners-Summer-2021-02.png" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="scaled-img">
+                        <img src=" images/Website-Banners-Summer-2021-03.png " class="img-fluid w-100" alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="scaled-img">
+                        <img src="images/Website-Banners-Summer-2021-04.png " class="img-fluid w-100" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--******* Trending Gifts *******-->
+    <section class="gifts-nav text-center container ">
+        <h2 class=" "><b><span>Trending</span> Gifts</b></h2>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center " id="pills-tab " role="tablist ">
+            <li class="nav-item " role="presentation ">
+                <a class="nav-link active " id="pills-home-tab " data-toggle="pill " href="#pills-new " role="tab " aria-controls="pills-new " aria-selected="true ">New Arrivals</a>
+            </li>
+            <li class="nav-item " role="presentation ">
+                <a class="nav-link " id="pills-profile-tab " data-toggle="pill " href="#pills-baskets " role="tab " aria-controls="pills-baskets " aria-selected="false ">Gift Baskets</a>
+            </li>
+            <li class="nav-item " role="presentation ">
+                <a class="nav-link " id="pills-contact-tab " data-toggle="pill " href="#pills-selling " role="tab " aria-controls="pills-selling " aria-selected="false ">Best Selling</a>
+            </li>
+            <li class="nav-item " role="presentation ">
+                <a class="nav-link " id="pills-sale-tab " data-toggle="pill " href="#pills-sale " role="tab " aria-controls="pills-sale " aria-selected="false ">Sale</a>
+            </li>
+        </ul>
+        <div class="tab-content " id="pills-tabContent ">
+            <div class="tab-pane fade show active " id="pills-new " role="tabpanel " aria-labelledby="pills-new-tab ">
+                <div class="row " id="uniqueRow ">
+
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="pills-baskets " role="tabpanel " aria-labelledby="pills-baskets-tab ">
+                <div class="row " id="unique ">
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="pills-selling " role="tabpanel " aria-labelledby="pills-selling-tab ">
+                <div class="row " id="uniqueRow ">
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="pills-sale " role="tabpanel " aria-labelledby="pills-sale-tab ">
+                <div class="row " id="uniqueRow ">
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--it'll be event to take me another page-->
+                        <div class="card" style=" width: 18rem; ">
+                            <img src="" class="card-img-top " alt="... ">
+                            <div class="card-body ">
+                                <h5 class="card-title ">aaaaaa</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--******* Featured Stores *******-->
 
+    <section class="cc text-center ">
+        <h2 class=" "><b><span>Featured</span> Stores</b></h2>
+        <!-- Flickity HTML init -->
 
+        <div class="carousel " data-flickity='{ "groupCells ": true }'>
 
-
-
+            <img src="images/4-1-100x100.jpg " class="carousel-cell img-fluid " alt=" ">
+            <img src="images/3-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/1-3-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/cadbury-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/Fauchon-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/HATHOUT-LOGO-150x150-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/mercedez-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/MISS-L_GIFTERY-BANNER-LOGO-300-X-300-02-150x150-1-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/PHOTO-2020-12-13-12-30-48.jpg " class="carousel-cell " alt=" ">
+            <img src="images/4-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/3-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/1-3-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/cadbury-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/Fauchon-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/HATHOUT-LOGO-150x150-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/mercedez-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/MISS-L_GIFTERY-BANNER-LOGO-300-X-300-02-150x150-1-100x100.png " class="carousel-cell " alt=" ">
+            <img src="images/PHOTO-2020-12-13-12-30-48.jpg " class="carousel-cell " alt=" ">
+            <img src="images/4-1-100x100.jpg " class="carousel-cell " alt=" ">
+            <img src="images/3-1-100x100.jpg " class="carousel-cell " alt=" ">
+        </div>
+    </section>
 
     <!--******* Footer *******-->
     <footer>
 
         <!-- the footer info -->
         <section class="container-fluid footer-info py-5 ">
-            <div class="container">
+            <div class="px-5 ">
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="row">
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <div class="row ">
                             <img src="images/logo-thegiftery.png.png " class="w-50 " alt="logo ">
                         </div>
-                        <div class="row pt-3">
+                        <div class="row pt-3 ">
                             <ul class="p-0 ">
                                 <li>
                                     <p>Heliopolis, Cairo.</p>
@@ -270,7 +464,7 @@ Shop By Recipient
                                 </li>
                                 <li>
                                     <p>
-                                        <a href="">customersupport@thegiftery.com</a>
+                                        <a href=" ">customersupport@thegiftery.com</a>
                                     </p>
                                 </li>
                                 <li>
@@ -282,14 +476,14 @@ Shop By Recipient
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 ">
                         <div class="row ">
                             <i class="fab fa-twitter p-2 "></i>
                             <i class="fab fa-facebook-f p-2 "></i>
                             <i class="far fa-envelope p-2 "></i>
                             <i class="fab fa-instagram p-2 "></i>
                         </div>
-                        <div class="row pt-3">
+                        <div class="row pt-3 ">
                             <ul class="p-0 ">
                                 <li>
                                     <p>
@@ -320,11 +514,11 @@ Shop By Recipient
                         </div>
                     </div>
 
-                    <div class="col-md-2">
-                        <div class="row">
+                    <div class="col-md-2 ">
+                        <div class="row ">
                             <h3>Newsletter</h3>
                         </div>
-                        <div class="row pt-3">
+                        <div class="row pt-3 ">
                             <ul class="p-0 ">
                                 <li>
                                     <p>
@@ -355,19 +549,19 @@ Shop By Recipient
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="row ">
                             <input class="form-control mr-sm-2 w-50 " type="search " placeholder="Enter your email here " aria-label="Search ">
                             <button type="button " class="btn main-bg text-light ">SUBSCRIBE</button>
                         </div>
-                        <div class="row flex-column text-center pt-3">
+                        <div class="row flex-column text-center pt-3 ">
                             <h5 class="text-left ">Working days</h5>
                             <p class="text-left ">Sunday - Thursday</p>
                             <hr>
                             <p>Open 10:00 AM</p>
                             <hr>
                             <p>Close 06:00 PM</p>
-                            <img src="images/HuTmVPK.png " class="w-50 bg-light" alt=" ">
+                            <img src="images/HuTmVPK.png " class="w-50 bg-light " alt=" ">
                         </div>
                     </div>
                 </div>
@@ -409,9 +603,9 @@ Shop By Recipient
     </footer>
 
     <!--******* The Fixed Icons *******-->
-    <section class="fixed-b-icon text-center mr-3 mb-5">
-        <div class="mb-2 shadow-lg pointer"><i class="fas fa-angle-up p-3"></i></div>
-        <div class="mb-2 shadow-lg pointer"><i class="far fa-clock p-3"></i></i>
+    <section class="fixed-b-icon text-center mr-3 mb-5 ">
+        <div class="mb-2 shadow-lg pointer "><i class="fas fa-angle-up p-3 "></i></div>
+        <div class="mb-2 shadow-lg pointer "><i class="far fa-clock p-3 "></i></i>
         </div>
 
     </section>
@@ -420,6 +614,7 @@ Shop By Recipient
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous "></script>
     <script src="js/indexJS.js "></script>
+    <script src="js/flickity-docs.min.js "></script>
     <!--
     <script src="js/jquery-3.5.1.slim.min.js "></script>
     <script src="js/popper.min.js "></script>
