@@ -1,0 +1,26 @@
+
+.title{
+    background-color: #f7f7f7;
+}
+#clicked{
+    color:#333
+}
+#clicked:hover{
+    text-decoration: underline;
+    color: #999;
+    transition: 0.3s;
+}
+.terms{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items : center; */
+    justify-content: space-around ;
+}
+.container p , a{
+    font-size: 12.5px ;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
