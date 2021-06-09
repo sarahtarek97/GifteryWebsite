@@ -38,4 +38,11 @@ window.addEventListener('scroll', function() {
     }
 });
 
-//Trending Gifts cells section
+//href section
+let sBtn = document.getElementById('shippingBtn');
+
+
+//go to shipping times page
+sBtn.addEventListener('click',function(){
+    location.replace("shippingTimes.html")
+})
